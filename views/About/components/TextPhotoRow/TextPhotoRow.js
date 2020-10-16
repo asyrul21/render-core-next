@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react"
-import TextBlock from "src/components/textBlock/textBlock"
-import Image from "src/containers/Image/Image"
+import TextBlock from "components/textBlock/textBlock"
+import Image from "containers/Image/Image"
 import propTypes from "prop-types"
 
 import "./TextPhotoRow.scss"

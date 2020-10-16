@@ -4,7 +4,7 @@ import propTypes from "prop-types"
 import classnames from "classnames"
 
 // dependency component
-import Image from "src/containers/Image/Image"
+import Image from "containers/Image/Image"
 
 // import style
 import "./OrgChartRowItem.scss"

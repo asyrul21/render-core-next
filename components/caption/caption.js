@@ -5,7 +5,7 @@ import classnames from "classnames"
 
 // import other components component
 // hocs
-import withStyles from "src/hocs/withStyles/withStyles"
+import withStyles from "hocs/withStyles/withStyles"
 
 // import style
 import "./caption.scss"

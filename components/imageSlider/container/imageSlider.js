@@ -5,7 +5,7 @@ import classnames from "classnames"
 
 // component
 import Slider from "../components/slider/slider"
-import Caption from "src/components/caption/caption"
+import Caption from "../components/caption/caption"
 
 // import style
 import "./imageSlider.scss"

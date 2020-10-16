@@ -3,7 +3,7 @@ import Link from "next/link"
 // import { compose } from "redux"
 import propTypes from "prop-types"
 // import withSpacing from "../../hocs/withSpacings/withSpacings"
-import withStyles from "hocs/withStyles/withStyles"
+import withStyles from "withStyles/withStyles"
 import classnames from "classnames"
 
 import styles from "./indexButton.module.scss"

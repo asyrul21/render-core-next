@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import propTypes from "prop-types"
 // import withSpacing from "../../hocs/withSpacings/withSpacings"
-import withStyles from "src/hocs/withStyles/withStyles"
+import withStyles from "hocs/withStyles/withStyles"
 import classnames from "classnames"
 
 import styles from "./formButton.module.scss"

@@ -5,10 +5,10 @@ import classnames from "classnames"
 
 // import other components component
 // hocs
-import withStyles from "src/hocs/withStyles/withStyles"
+import withStyles from "hocs/withStyles/withStyles"
 
 // import style
-import "./Caption.scss"
+import "./caption.scss"
 
 export const Caption = props => {
   const { text, className } = props
