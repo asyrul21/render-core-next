@@ -2,13 +2,13 @@ import React from "react"
 import cx from "classnames"
 
 // components
-import Content from "../../containers/Content/Content"
-import TextBlock from "src/components/textBlock/textBlock"
-import SimpleForm from "src/components/forms/simple/form"
-import ContactInformation from "src/components/contactInformation/contactInformation"
+import Content from "containers/Content/Content"
+import TextBlock from "components/textBlock/textBlock"
+import SimpleForm from "components/forms/simple/form"
+import ContactInformation from "components/contactInformation/contactInformation"
 
 // data
-import data from "src/data/contact/data.json"
+import data from "data/contact/data.json"
 
 // import style
 import "./contact.scss"
