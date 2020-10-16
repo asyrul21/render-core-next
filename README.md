@@ -134,8 +134,6 @@ Main reference:
 
 https://medium.com/@jacoboakley/deploy-a-next-js-app-on-heroku-69bcb01db1b7
 
-https://www.gatsbyjs.com/docs/deploying-to-heroku/
-
 1. Install and setup Heroku
 
 ```bash
@@ -144,7 +142,22 @@ brew tap heroku/brew && brew install heroku
 
 <!-- Create Heroku repo -->
 heroku create recode-masterclass
+```
 
+2. Modify package.json
+
+```json
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build", <-- Optional
+  },
+```
+
+3. Push to Heroku
+
+```bash
 <!-- Push to Heroku -->
 git push heroku master
 ```

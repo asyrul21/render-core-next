@@ -6,26 +6,26 @@ import classnames from "classnames"
 
 // import other components component
 // hocs
-// import withSpacing from "../../hocs/withSpacings/withSpacings"
-import withStyles from "src/hocs/withStyles/withStyles"
+// import withSpacing from "hocs/withSpacings/withSpacings"
+import withStyles from "hocs/withStyles/withStyles"
 // dependency component
-import something from "src/components/somewhere"
+import something from "components/somewhere"
 
 // config - if there is
 import config from "./config.json"
 
 // data
-import data from "static/data/whichPage/thePage-data.json"
+import data from "public/data/whichPage/data.json"
 
 // import style
-import "./yourComponentName.scss"
+import styles from "./yourComponentName.module.scss"
 
 export const yourComponentName = props => {
   const { text, link, className } = props
 
   // define container classes here
   const styleClasses = classnames({
-    indexButtonContainer: true,
+    [styles.indexButtonContainer]: true,
     [`${className}`]: className,
   })
 
