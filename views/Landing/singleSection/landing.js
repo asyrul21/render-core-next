@@ -1,7 +1,7 @@
 import React, { Fragment } from "react"
 
 // import component
-import Hero from "src/components/heros/landing/hero"
+import Hero from "components/heros/landing/hero"
 
 // import style
 import "./landing.scss"

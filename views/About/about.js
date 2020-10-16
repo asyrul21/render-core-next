@@ -5,14 +5,14 @@ import cx from "classnames"
 // import GenericContainer from "../../containers/GenericContainer/GenericContainer"
 
 // components
-import Content from "../../containers/Content/Content"
-import TextPhotoRow from "./components/TextPhotoRow/TextPhotoRow"
-import SectionTitle from "src/components/sectionTitles/sectionTitle1/sectionTitle"
-import OrgChartRow from "src/components/orgCharts/OrgChartRow"
-import ImageSlider from "src/components/imageSlider/container/imageSlider"
+import Content from "containers/Content/Content"
+import TextPhotoRow from "components/TextPhotoRow/TextPhotoRow"
+import SectionTitle from "components/sectionTitles/sectionTitle1/sectionTitle"
+import OrgChartRow from "components/orgCharts/OrgChartRow"
+import ImageSlider from "components/imageSlider/container/imageSlider"
 
 // data
-import data from "src/data/about/data.json"
+import data from "data/about/data.json"
 
 // import style
 import "./about.scss"
