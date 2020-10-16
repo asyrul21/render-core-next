@@ -8,7 +8,7 @@ import classnames from "classnames"
 import withStyles from "hocs/withStyles/withStyles"
 
 // import style
-import "./caption.scss"
+import "./caption.module.scss"
 
 export const Caption = props => {
   const { text, className } = props

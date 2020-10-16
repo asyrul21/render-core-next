@@ -7,7 +7,7 @@ import classnames from "classnames"
 import OrgChartRowItems from "./OrgChartRowItems/OrgChartRowItems"
 
 // import style
-import "./OrgChartRow.scss"
+import "./OrgChartRow.module.scss"
 
 export const OrgChartRow = props => {
   const { data, className } = props

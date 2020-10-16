@@ -7,7 +7,7 @@ import classnames from "classnames"
 import Image from "containers/Image/Image"
 
 // import style
-import "./contactItem.scss"
+import "./contactItem.module.scss"
 
 export const ContactItem = props => {
   const { item, className } = props

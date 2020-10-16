@@ -8,7 +8,7 @@ import Slider from "../components/slider/slider"
 import Caption from "../components/caption/caption"
 
 // import style
-import "./imageSlider.scss"
+import "./imageSlider.module.scss"
 
 class ImageSlider extends Component {
   constructor() {

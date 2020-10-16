@@ -1,6 +1,6 @@
 import React from "react"
 
-import "./textBlock.scss"
+import "./textBlock.module.scss"
 
 // this component must be wrapped with a container to determine its size
 

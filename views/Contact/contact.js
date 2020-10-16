@@ -11,7 +11,7 @@ import ContactInformation from "components/contactInformation/contactInformation
 import data from "public/data/contact/data.json"
 
 // import style
-import "./contact.scss"
+import "./contact.module.scss"
 
 const Contact = () => {
   return (

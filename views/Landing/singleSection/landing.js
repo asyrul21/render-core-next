@@ -4,7 +4,7 @@ import React, { Fragment } from "react"
 import Hero from "components/heros/landing/hero"
 
 // import style
-import "./landing.scss"
+import "./landing.module.scss"
 
 const Landing = () => {
   return (

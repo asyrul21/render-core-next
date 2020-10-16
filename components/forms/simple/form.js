@@ -7,7 +7,7 @@ import classnames from "classnames"
 import FormButton from "components/buttons/formButton/formButton"
 
 // import style
-import "./form.scss"
+import "./form.module.scss"
 
 export class Form extends Component {
   constructor() {

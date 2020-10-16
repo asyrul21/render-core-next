@@ -1,11 +1,11 @@
 import React, { Component } from "react"
 import { compose } from "redux"
 import propTypes from "prop-types"
-import withSpacing from "../../hocs/withSpacings/withSpacings"
-import withStyles from "../../hocs/withStyles/withStyles"
+import withSpacing from "hocs/withSpacings/withSpacings"
+import withStyles from "hocs/withStyles/withStyles"
 import classnames from "classnames"
 
-import "./GenericContainer.scss"
+import "./GenericContainer.module.scss"
 
 export class GenericContainer extends Component {
   render() {

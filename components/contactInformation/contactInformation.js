@@ -7,7 +7,7 @@ import classnames from "classnames"
 import ContactItem from "./contactItem/contactItem"
 
 // import style
-import "./contactInformation.scss"
+import "./contactInformation.module.scss"
 
 export const ContactInformation = props => {
   const { data, className } = props

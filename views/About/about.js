@@ -15,7 +15,7 @@ import ImageSlider from "components/imageSlider/container/imageSlider"
 import data from "public/data/about/data.json"
 
 // import style
-import "./about.scss"
+import "./about.module.scss"
 
 const About = () => {
   const textPhotoRowData = data.textPhotoRows

@@ -7,7 +7,7 @@ import classnames from "classnames"
 import Image from "containers/Image/Image"
 
 // import style
-import "./slider.scss"
+import "./slider.module.scss"
 
 export const Slider = props => {
   const {

@@ -3,7 +3,7 @@ import TextBlock from "components/textBlock/textBlock"
 import Image from "containers/Image/Image"
 import propTypes from "prop-types"
 
-import "./TextPhotoRow.scss"
+import "./TextPhotoRow.module.scss"
 
 class TextPhotoRow extends Component {
   renderTextBlock = props => {
