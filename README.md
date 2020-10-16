@@ -145,53 +145,6 @@ brew tap heroku/brew && brew install heroku
 <!-- Create Heroku repo -->
 heroku create recode-masterclass
 
-<!-- IMPORTANT: add buildpacks -->
-
-heroku buildpacks:set heroku/nodejs
-heroku buildpacks:add https://github.com/heroku/heroku-buildpack-static.git
-```
-
-2. Define all static files in _static.json_
-
-See [Heroku Static Buildpack](https://github.com/heroku/heroku-buildpack-static#configuration)
-
-```json
-{
-  "root": "public/",
-  "headers": {
-    "/**": {
-      "Cache-Control": "public, max-age=0, must-revalidate"
-    },
-    "/**.png": {
-      "Cache-Control": "public, max-age=31536000, immutable"
-    },
-    "/static/images/**.png": {
-      "Cache-Control": "public, max-age=31536000, immutable"
-    },
-    "/static/images/**.jpg": {
-      "Cache-Control": "public, max-age=31536000, immutable"
-    },
-    "/static/images/**.webp": {
-      "Cache-Control": "public, max-age=31536000, immutable"
-    },
-    "/static/images/**.jp2": {
-      "Cache-Control": "public, max-age=31536000, immutable"
-    },
-    "/static/data/**.json": {
-      "Cache-Control": "public, max-age=31536000, immutable"
-    },
-    "/icons/*.png": {
-      "Cache-Control": "public, max-age=31536000, immutable"
-    }
-  },
-  "https_only": true,
-  "error_page": "404.html"
-}
-```
-
-3. Push to Heroku
-
-```bash
 <!-- Push to Heroku -->
 git push heroku master
 ```
