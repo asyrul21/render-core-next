@@ -97,6 +97,8 @@ import Button from "components/button";
 
 [Media Query: Larger Max width overriding Smaller max width](https://stackoverflow.com/questions/32629967/why-does-a-higher-max-width-in-media-queries-overwrite-a-lower-max-width/32630026) : Make sure larger max widths come _EARLIER_.
 
+[Cannot destructure property .... PRERENDER ERROR](https://github.com/vercel/next.js/blob/master/errors/prerender-error.md) : This error happens if you have page files in the _/pages_ folder but those pages are not rendered on the screen. If you dont intent to render any page, put them in the _/nonPages_ folder. [Another reference.](https://github.com/isaachinman/next-i18next/issues/661)
+
 ## Using React Reveal and Percentage Width
 
 Be careful when using percentages as width. If you are using React-Reveal's Fade as a wrapper, the width will break, because the Fade component does not have a width, hence e.g. 80% of none.
