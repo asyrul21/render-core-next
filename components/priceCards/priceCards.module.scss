@@ -1,0 +1,37 @@
+.priceCardsContainer {
+  //   border: white 2px solid;
+  //   background: green;
+  width: 80vw;
+  min-height: 400px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin-bottom: 180px;
+}
+
+// be careful when using percentages as width. If you are using React-Reveal's Fade as a wrapper, the width will break, because the Fade component does not have a width, hence e.g. 80% of none.
+// solution: use vw instead
+
+@media screen and (max-width: 825px) {
+  // phones in landscape
+  // item width should be less than 800
+  .priceCardsContainer {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  // item width should be less than 400
+  .priceCardsContainer {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .priceCardsContainer {
+    width: 95vw;
+  }
+}

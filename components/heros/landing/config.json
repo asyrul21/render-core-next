@@ -1,0 +1,14 @@
+{
+  "hasContent": "true",
+  "backgroundImagePath": "/static/images/index/xps.jpg",
+  "overlay": {
+    "overlayColor": "rgba(255, 255, 255, 0.9)"
+  },
+  "sideImagePath": "/static/images/index/square.jpg",
+  "button": {
+    "color": "orange",
+    "borderRadius": "50",
+    "link": "/programmes",
+    "linkColor": "white"
+  }
+}

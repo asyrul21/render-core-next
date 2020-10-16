@@ -1,0 +1,20 @@
+.formButtonContainer {
+  width: 100%;
+  height: 45px;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 18px;
+
+  border-radius: 5px;
+  background: linear-gradient(180deg, #ffae74 0%, #fb861b 100%);
+
+  color: white;
+
+  opacity: 0.9;
+  outline: none !important;
+}
+
+.formButtonContainer:hover {
+  opacity: 1;
+}

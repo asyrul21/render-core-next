@@ -1,0 +1,68 @@
+$darkFont: #223c66;
+
+.landing_section_title_whyUs {
+  //   border: green 2px solid;
+
+  color: $darkFont;
+}
+
+// ************************************
+// Why us
+.landing_section_whyUs {
+  //   border: red 2px solid;
+  min-height: 650px;
+}
+
+// ************************************
+// Programmes
+.landing_programmes {
+  //   border: blue 2px solid;
+  width: 100%;
+  position: relative;
+  // overwrite min height
+  min-height: 820px;
+  //   height: 820px;
+}
+
+.landing_section_title_programmes {
+  color: white;
+  //   border: green 2px solid;
+}
+
+.landing_priceCard_container {
+  border: 2px solid red;
+}
+
+// ************************************
+// Enquire Now
+.landing_contact {
+  min-height: 50vh;
+  margin-bottom: 180px;
+}
+
+.landing_section_title_contact {
+  color: $darkFont;
+  text-transform: capitalize;
+  margin-bottom: 80px;
+}
+
+.landing_contact_text {
+  font-weight: 200;
+  font-size: 24px;
+  max-width: 632px;
+  //   border: green 2px solid;
+  text-align: center;
+  color: $darkFont;
+  margin-bottom: 80px;
+}
+
+.landing_contact_button {
+  background: $darkFont;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 360px) {
+  .landing_contact_text {
+    width: 300px;
+  }
+}

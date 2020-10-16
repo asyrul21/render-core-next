@@ -1,0 +1,45 @@
+.imageSliderContainer {
+  // border: 2px solid red;
+
+  width: 100%;
+  height: 720px;
+
+  margin-top: 90px;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+.imageSlider_navButton {
+  width: 50px;
+  height: 90px;
+  background-color: blue;
+
+  position: absolute;
+  transform: translateY(-50%);
+  z-index: 10;
+  opacity: 0.5;
+  transition: opacity ease 0.4s;
+
+  cursor: pointer;
+}
+
+.imageSlider_navButton:hover {
+  opacity: 1;
+}
+
+.imageSlider_previousButton {
+  left: 0;
+  top: 50%;
+  bottom: 50%;
+}
+
+.imageSlider_forwardButton {
+  right: 0;
+  top: 50%;
+  bottom: 50%;
+}

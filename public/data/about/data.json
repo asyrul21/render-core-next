@@ -1,0 +1,137 @@
+{
+    "textPhotoRows" : [
+        {
+            "heading": "Who Are We?",
+            "paragraphs": [
+                "The Fun Factory strives towards this by first, engaging tutors who love children and possess the passion to develop them into happy and smart individuals.",
+                "This, coupled with a syllabus designed specially to bring out the best in your child are the elements that make The Fun Factory the best choice for your child."
+            ],
+            "image": {
+                "path": "static/images/about/about1.png",
+                "path_WEBP": "",
+                "path_JPEG2000": ""
+            }
+        },
+        {
+            "heading": "Our Method",
+            "paragraphs": [
+                "The Fun Factory method emphasises on introducing young children to the world around them. Through themes and enjoyable activities, they not only gain knowledge but are exposed to analytical skills, logical thinking and creativity. At the end of the day, happy children make confident individuals"
+            ],
+            "image": {
+                "path": "static/images/about/about2.png",
+                "path_WEBP": "",
+                "path_JPEG2000": ""
+            }
+        }
+    ],
+    "orgChartRows": [
+        {
+            "title": "management",
+            "team":  [
+                {
+                    "name": "Teacher Alma",
+                    "education": "BA (Hons) TESL",
+                    "position": "Principal",
+                    "image": {
+                        "path": "static/images/about/team/alma.png",
+                        "path_WEBP": "",
+                        "path_JPEG2000": ""
+                    }
+                },
+                {
+                    "name": "Teacher Mazni",
+                    "education": "BA (Hons) Early Childhood Ed.",
+                    "position": "Principal",
+                    "image": {
+                        "path": "static/images/about/team/mazni.png",
+                        "path_WEBP": "",
+                        "path_JPEG2000": ""
+                    }
+                },
+                {
+                    "name": "Teacher Oji",
+                    "education": "BA (Hons) Early Childhood Ed.",
+                    "position": "Principal",
+                    "image": {
+                        "path": "static/images/about/team/oji.png",
+                        "path_WEBP": "",
+                        "path_JPEG2000": ""
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Branch 1 Teachers (4 to 6-year-olds)",
+            "team":  [
+                {
+                    "name": "Teacher Alma",
+                    "education": "BA (Hons) TESL",
+                    "position": "Principal",
+                    "image": {
+                        "path": "static/images/about/team/alma.png",
+                        "path_WEBP": "",
+                        "path_JPEG2000": ""
+                    }
+                },
+                {
+                    "name": "Teacher Mazni",
+                    "education": "BA (Hons) Early Childhood Ed.",
+                    "position": "Principal",
+                    "image": {
+                        "path": "static/images/about/team/mazni.png",
+                        "path_WEBP": "",
+                        "path_JPEG2000": ""
+                    }
+                },
+                {
+                    "name": "Teacher Oji",
+                    "education": "BA (Hons) Early Childhood Ed.",
+                    "position": "Principal",
+                    "image": {
+                        "path": "static/images/about/team/oji.png",
+                        "path_WEBP": "",
+                        "path_JPEG2000": ""
+                    }
+                },
+                {
+                    "name": "Teacher Leesa",
+                    "education": "BA (Hons) Early Childhood Ed.",
+                    "position": "Principal",
+                    "image": {
+                        "path": "static/images/about/team/leesa.png",
+                        "path_WEBP": "",
+                        "path_JPEG2000": ""
+                    }
+                }
+            ]
+        }
+    ],
+    "imageSlider": {
+        "images": [
+            {
+                "path": "static/images/about/slider/1.png",
+                "path_WEBP": "",
+                "path_JPEG2000": "",
+                "caption": "The Classroom"
+            },
+            {
+                "path": "static/images/about/slider/2.png",
+                "path_WEBP": "",
+                "path_JPEG2000": "",
+                "caption": "The Ballroom"
+            },
+            {
+                "path": "static/images/about/slider/3.png",
+                "path_WEBP": "",
+                "path_JPEG2000": "",
+                "caption": "The Kitchen"
+            },
+            {
+                "path": "static/images/about/slider/4.png",
+                "path_WEBP": "",
+                "path_JPEG2000": "",
+                "caption": "The Playroom"
+            }
+        ]
+    }
+}

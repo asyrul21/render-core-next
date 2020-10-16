@@ -1,0 +1,56 @@
+{
+    "text":{
+        "heading": "Get In Touch!",
+        "paragraphs": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet massa condimentum, vestibulum justo ut, tempus tellus. Morbi quis lorem euismod, dictum massa ac."
+        ]
+    },
+    "formPlaceholders": {
+        "field1": "name",
+        "field2": "email",
+        "field3": "type your message here..."
+    },
+    "contactInformation": [
+        {
+            "title": "phone",
+            "iconPath" : {
+                "path": "static/images/contact/icons/phone.png",
+                "path_WEBP": "",
+                "path_JPEG2000": ""
+            },
+            "lines": [
+                "013 3045671 (Teacher Mazny)",
+                "012 2055337 (Teacher Alma)"
+            ]
+        },
+       {
+            "title": "email",
+            "iconPath": {
+                "path": "static/images/contact/icons/email.png",
+                "path_WEBP": "",
+                "path_JPEG2000": ""
+            },
+            "lines": [
+                "thefunfactory@gmail.com"
+            ]
+        },
+        {
+            "title": "address",
+            "iconPath": {
+                "path": "static/images/contact/icons/location.png",
+                "path_WEBP": "",
+                "path_JPEG2000": ""
+            },
+            "lines": [
+                "24, Jalan SS 1/41, Kampung Tunku,",
+                "47300 Petaling Jaya, Selangor, Malaysia"
+            ]
+        }
+    ],
+    "googleAPI" : {
+        "coordinates": {
+            "x": "0.12345",
+            "y": "0.45678"
+        }
+    }
+}

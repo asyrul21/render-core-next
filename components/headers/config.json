@@ -1,0 +1,17 @@
+{
+  "logo": "",
+  "navLinks": [
+    {
+      "text": "Home",
+      "link": "/"
+    },
+    {
+      "text": "About",
+      "link": "/about"
+    },
+    {
+      "text": "Contact Us",
+      "link": "/contact"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+// LARGER MAX-WIDTHS MUST COME EARLIER
+
+@media screen and (max-width: 1440px) {
+  // super large screen
+}
+
+@media screen and (max-width: 1025px) {
+  // ipad pro
+  // item width should be less than 1000
+}
+
+@media screen and (max-width: 825px) {
+  // phones in landscape
+  // item width should be less than 800
+}
+
+@media screen and (max-width: 770px) {
+  // tablets
+  // item width should be less than 770
+}
+
+@media screen and (max-width: 420px) {
+  // item width should be less than 400
+}
+
+@media screen and (max-width: 380px) {
+  // item width should be less than 300
+}

@@ -1,0 +1,17 @@
+.orgChartRowContainer {
+  //   border: blue 2px solid;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  margin-bottom: 120px;
+}
+
+.orgChartRow_header {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+}

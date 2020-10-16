@@ -1,0 +1,39 @@
+.formContainer {
+  //   border: red 2px solid;
+
+  width: 100%;
+  height: auto;
+}
+
+.form_input {
+  width: 100%;
+  background: #f4f4f4;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+
+  padding: 10px 20px;
+
+  font-family: inherit;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 55px;
+}
+
+.form_input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  text-transform: capitalize;
+}
+
+.form_input:focus {
+  border: orange 2px solid;
+  outline: none !important;
+  box-shadow: 0 0 5px #719ece;
+}
+
+.simpleForm_inputText {
+  height: 45px;
+}
+
+.simpleForm_textArea {
+  height: 160px;
+}

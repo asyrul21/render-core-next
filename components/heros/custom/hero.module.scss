@@ -1,0 +1,151 @@
+.heroContainer {
+  width: 100%;
+  height: 830px;
+
+  //   border: blue solid 2px;
+
+  position: relative;
+}
+
+.hero_backgroundImage {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.hero_overlay {
+  background: linear-gradient(
+    0deg,
+    rgba(34, 60, 102, 0.78),
+    rgba(34, 60, 102, 0.78)
+  );
+}
+
+.heroContent {
+  width: 90%;
+  height: 100%;
+
+  //   border: yellow 2px solid;
+  margin: 0 auto;
+  padding-top: 130px;
+
+  color: white;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  opacity: 0;
+
+  animation: appearfromBottom 0.5s ease-in forwards;
+  animation-delay: 0.5s;
+}
+
+.hero_LogoImage {
+  width: 175px;
+  height: 175px;
+
+  margin-bottom: 65px;
+
+  animation: slowBlink 5s linear infinite;
+}
+
+@keyframes slowBlink {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+
+@keyframes appearfromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero_heading {
+  font-weight: 600;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.hero_subHeading {
+  //   border: green 2px solid;
+  max-width: 700px;
+
+  font-weight: medium;
+  font-size: 32px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.hero_button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+
+  color: #223c66;
+}
+
+@media screen and (max-width: 360px) {
+  .heroContent {
+    padding-top: 100px;
+  }
+
+  .hero_heading {
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .hero_subHeading {
+    // border: green 2px solid;
+    width: 300px;
+
+    font-size: 24px;
+    // margin-bottom: 70px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .heroContent {
+    padding-top: 100px;
+  }
+
+  .hero_heading {
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .hero_subHeading {
+    width: 300px;
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .heroContent {
+    padding-top: 100px;
+  }
+
+  .hero_heading {
+    text-align: center;
+  }
+}

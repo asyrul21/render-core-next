@@ -1,0 +1,22 @@
+.indexButtonContainer {
+  width: 255px;
+  height: 50px;
+
+  text-align: center;
+  line-height: 50px;
+
+  opacity: 0.9;
+  cursor: pointer;
+
+  // define global constant values
+  border-radius: 50px;
+  font-size: 18px;
+}
+
+.indexButtonContainer:hover {
+  opacity: 1;
+}
+
+.buttonText {
+  color: inherit;
+}

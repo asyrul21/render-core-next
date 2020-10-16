@@ -1,0 +1,55 @@
+// @import "./themes/themeColors.scss";
+
+// import colors
+@import "./colors/colorClasses.scss";
+
+// import fonts
+// only use what you need
+// remove what you do not need
+@import "./fonts/Poppins/POPPINS.scss";
+@import "./fonts/Open_Sans/OPEN_SANS.scss";
+@import "./fonts/Roboto/ROBOTO.scss";
+@import "./fonts/Montserrat/MONTSERRAT.scss";
+@import "./fonts/Lora/LORA.scss";
+@import "./fonts/Dancing_Script/DANCING_SCRIPT.scss";
+@import "./fonts/Public_Sans/PUBLIC_SANS.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "PublicSans";
+  position: relative;
+}
+
+a {
+  color: #2e7bc1;
+  text-decoration: none;
+}
+
+.container {
+  padding: 100px 155px 100px;
+}
+
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}

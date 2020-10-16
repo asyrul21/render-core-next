@@ -1,0 +1,105 @@
+.priceCardContainer {
+  //   border: yellow 2px solid;
+  width: 404px;
+  //   height: auto;
+
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 48px;
+
+  //   margin: 0 20px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-bottom: 40px;
+}
+
+.priceCard_heading {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+
+  color: #000000;
+  text-transform: uppercase;
+
+  margin-bottom: 10px;
+}
+
+.priceCard_subHeading {
+  font-weight: light;
+  font-size: 18px;
+
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #648dcc;
+
+  margin-bottom: 40px;
+}
+
+.priceCard_text {
+  //   border: blue 2px solid;
+  height: 120px;
+  width: 100%;
+  font-weight: 200;
+  font-size: 18px;
+  text-align: center;
+  line-height: 28px;
+
+  color: #000000;
+
+  margin-bottom: 40px;
+}
+
+.priceCard_price {
+  font-weight: bold;
+  font-size: 28px;
+
+  text-align: center;
+
+  color: #5076b5;
+
+  margin-bottom: 40px;
+}
+
+.priceCard_button {
+  background: #5076b5;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1025px) {
+  // ipad pro
+  // item width should be less than 1000
+  .priceCardContainer {
+    width: 390px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  // item width should be less than 700
+  .priceCardContainer {
+    width: 325px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  // item width should be less than 400
+  .priceCardContainer {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .priceCardContainer {
+    width: 300px;
+    padding: 18px;
+  }
+}

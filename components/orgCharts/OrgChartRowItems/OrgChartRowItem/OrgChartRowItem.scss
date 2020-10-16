@@ -1,0 +1,34 @@
+.OrgChartRowItemContainer {
+  //   border: orange 2px solid;
+
+  height: 400px;
+  width: 250px;
+}
+
+.orgChartRowItem_ImageContainer {
+  width: 100%;
+  height: 250px;
+
+  margin-bottom: 25px;
+}
+
+.orgChartRowItem_people_title {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.orgChartRowItem_people_sub1 {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.orgChartRowItem_people_sub2 {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.orgChartRowItem_people_title,
+.orgChartRowItem_people_sub1,
+.orgChartRowItem_people_sub2 {
+  margin-bottom: 4px;
+}

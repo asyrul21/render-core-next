@@ -1,0 +1,34 @@
+.navItemsContainer {
+  // border: red 1px solid;
+  width: auto;
+
+  display: flex;
+  justify-content: center;
+
+  height: 100%;
+}
+
+.navItem {
+  // border: blue solid 2px;
+  color: black;
+  opacity: 0.8;
+
+  height: 100%;
+  width: 110px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color 0.1s ease;
+}
+
+.navItem:hover {
+  opacity: 1;
+}
+
+.activeNavItem {
+  background-color: #06394e;
+  color: white;
+  opacity: 1;
+}

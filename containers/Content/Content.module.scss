@@ -1,0 +1,24 @@
+.contentContainer {
+  margin: 0 auto;
+  width: 80%;
+  min-height: 90vh;
+  // margin-top: 90px;
+  // margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  // border: red 2px solid;
+}
+
+@media screen and (max-width: 1440px) {
+  .contentContainer {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  .contentContainer {
+    width: 95%;
+  }
+}
