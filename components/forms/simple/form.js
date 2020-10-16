@@ -4,7 +4,7 @@ import propTypes from "prop-types"
 import classnames from "classnames"
 
 // dependency component
-import FormButton from "src/components/buttons/formButton/formButton"
+import FormButton from "components/buttons/formButton/formButton"
 
 // import style
 import "./form.scss"
