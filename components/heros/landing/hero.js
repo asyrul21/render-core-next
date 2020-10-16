@@ -11,7 +11,7 @@ import Button from "src/components/buttons/indexButton/indexButton"
 // config
 import config from "./config.json"
 // data
-import data from "src/data/index/data.json"
+import data from "public/data/index/data.json"
 
 class Hero extends Component {
   render() {
