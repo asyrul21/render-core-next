@@ -14,8 +14,6 @@ npm install --save sass
 
 ## Setup Fonts
 
-[Refer This](https://www.gatsbyjs.com/docs/using-local-fonts/#using-local-fonts-in-gatsby).
-
 1. Copy font files into `/src/styles/fonts`
 
 2. Create `fonts.scss` in the same folder of the font folder
@@ -24,39 +22,39 @@ npm install --save sass
 // Black
 @font-face {
   font-family: "Poppins";
-  src: url("fonts/Poppins/Poppins-Black.ttf");
+  src: url("./Poppins-Black.ttf");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("fonts/Poppins/Poppins-BlackItalic.ttf");
+  src: url("./Poppins-BlackItalic.ttf");
   font-weight: 900;
   font-style: italic;
 }
 // Extra Bold
 @font-face {
   font-family: "Poppins";
-  src: url("fonts/Poppins/Poppins-ExtraBold.ttf");
+  src: url("./Poppins-ExtraBold.ttf");
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("fonts/Poppins/Poppins-ExtraBoldItalic.ttf");
+  src: url("./Poppins-ExtraBoldItalic.ttf");
   font-weight: 800;
   font-style: italic;
 }
 // Bold
 @font-face {
   font-family: "Poppins";
-  src: url("fonts/Poppins/Poppins-Bold.ttf");
+  src: url("./Poppins-Bold.ttf");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("fonts/Poppins/Poppins-BoldItalic.ttf");
+  src: url("./Poppins-BoldItalic.ttf");
   font-weight: 700;
   font-style: italic;
 }
@@ -71,22 +69,22 @@ npm install --save sass
 
 ## Setup Absolute Import
 
-[Reference: Gatsby Plugin Root Import](https://www.gatsbyjs.com/plugins/gatsby-plugin-root-import/)
+[Next JS Absolute Imports](https://nextjs.org/docs/advanced-features/module-path-aliases)
 
-[Another reference](https://stackoverflow.com/questions/61484861/how-to-use-absolute-imports-in-gatsby-with-eslint)
+1. make `jsconfig.json`
 
-1. install
-
-```bash
-npm install --save-dev gatsby-plugin-root-import
+```json
+{
+  "compilerOptions": {
+    "baseUrl": "."
+  }
+}
 ```
 
-2. Add into gatsby-config.js
+2. Make Reference reference
 
 ```javascript
-module.exports = {
-  plugins: ["gatsby-plugin-root-import"],
-};
+import Button from "components/button";
 ```
 
 # Errors, Issues and References
