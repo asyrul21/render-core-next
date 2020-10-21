@@ -163,12 +163,54 @@ Solution: use vw instead.
 
 # Image Optimasation
 
+## Conversion to WebP
+
 [Using WEBP](https://developers.google.com/speed/webp/docs/using)
 
 1. Run Script:
 
 ```bash
  cwebp -q 80 landing-coding.jpg -o landing-coding.webp
+```
+
+## Conversion to JPEG2000
+
+[imageMagick](https://imagemagick.org/script/download.php)
+
+1. Install
+
+```bash
+brew install imagemagick
+
+brew install ghostscript
+```
+
+2. To convert:
+
+```bash
+magick convert -quality 80 about2.png about2.jp2
+```
+
+## Using the `optimise.py` Script
+
+This python scrypt iterates through every images in the `images` directory and convert each of them to webp and jp2 formats. You need 2 things installed, both of which have been linked above:
+
+1. The Webp encoder library
+2. The Image Magick library
+
+You may specify the following variables:
+
+```python
+IMAGE_EXTENSIONS = ['jpeg', 'jpg', 'png']
+WEBP_QUALITY_THRESHOLD = 80
+JP2_QUALITY_THRESHOLD = 70
+EXCLUDE_DIRS = ['icons']
+```
+
+To run the script, simply:
+
+```bash
+python optimise.py
 ```
 
 # Deployment
