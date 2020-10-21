@@ -2,6 +2,47 @@
 
 This repository serves as the single source of truth for the collection of all components which will be used for the Website Development Business Project. It will be used as a dependency, which will be pulled by Web-Prototypes(WPs). WP's will be used as a base design for customers to choose from, and which they can make visual customisations. To overwrite the CORE code base, WP's will need to use `alias.json`.
 
+# How to Use this Repo as a Starter Code
+
+1. Git clone the repo.
+
+```bash
+git clone https://github.com/asyrul21/render-core-next.git
+```
+
+2. Change the name of the project folder to the name of your project.
+
+```bash
+mv render-core-next recode-masterclass
+```
+
+3. Run npm install and test app is working.
+
+```bash
+npm install
+
+npm run dev
+
+// check on http://localhost:3000
+```
+
+4. Create new repository in Github.
+
+5. Change git remote to point to the newly created repository. [Reference](https://help.github.jp/enterprise/2.11/user/articles/changing-a-remote-s-url/).
+
+```bash
+git remote -v
+git remote set-url origin https://github.com/asyrul21/recode-masterclass.git
+```
+
+6. Update README and Add, commit and push to new repository.
+
+```bash
+git add .
+git commit -m "cloned from rendr-core"
+git push
+```
+
 ## Setup SCSS
 
 https://nextjs.org/docs/basic-features/built-in-css-support#sass-support
