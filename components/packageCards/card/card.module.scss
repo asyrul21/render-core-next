@@ -1,0 +1,106 @@
+.cardContainer {
+  //   border: red 2px solid;
+  width: 360px;
+  height: 360px;
+  padding: 0;
+
+  // the secret is here
+  margin: 50px auto;
+  //   margin-bottom: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+
+  position: relative;
+
+  border-radius: 20px;
+  overflow: hidden;
+
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+
+  cursor: pointer;
+}
+
+.cardContainer:hover {
+  opacity: 1;
+}
+
+.cardBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: inherit;
+
+  width: 100%;
+  height: 100%;
+
+  z-index: -1;
+}
+
+.cardTextContainer {
+  width: 100%;
+  height: 155px;
+  background: white;
+  padding: 30px;
+
+  text-align: left;
+
+  //   border-radius: inherit;
+}
+
+.card_heading {
+  //   border: green 2px solid;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  color: black;
+
+  margin-bottom: 8px;
+}
+
+.card_subHeading {
+  //   border: green 2px solid;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+
+  color: rgba(65, 65, 65, 0.73);
+
+  margin-bottom: 8px;
+}
+
+.card_price {
+  font-weight: 300;
+  font-size: 18px;
+
+  color: rgba(65, 65, 65, 0.73);
+}
+
+@media screen and (max-width: 825px) {
+  // phones in landscape
+  // item width should be less than 800
+  .cardContainer {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .card_heading {
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .cardContainer {
+    width: 300px;
+  }
+
+  .card_paragraph {
+    font-weight: 300;
+    font-size: 16px;
+  }
+}

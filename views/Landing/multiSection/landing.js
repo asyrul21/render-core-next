@@ -6,6 +6,7 @@ import CustomHero from "components/heros/custom/hero"
 import SectionTitle from "components/sectionTitles/sectionTitle1/sectionTitle"
 import Content from "containers/Content/Content"
 import InfoCards from "components/infoCards/infoCards"
+import PackageCards from "components/packageCards/packageCards"
 import PriceCards from "components/priceCards/priceCards"
 import Button from "components/buttons/indexButton/indexButton"
 
@@ -14,7 +15,7 @@ import AnimateAppear from "components/animators/reveal-fade-appear"
 import AnimateAppearFromBottom from "components/animators/reveal-fade-appear-from-bottom"
 
 // data
-import data from "public/data/index/data2.json"
+import data from "public/data/index/data3.json"
 import Image from "containers/Image/Image"
 
 // import style
@@ -26,11 +27,11 @@ class Landing extends Component {
         this.programmesRef = React.createRef()
     }
 
-    handleIndexButtonClick = (event) => {
-        console.log("Index BUtton clicked!");
-        this.programmesRef.current.scrollIntoView({behavior: "smooth"})
-        // smoooth does not work with safari
-    }
+    // handleIndexButtonClick = (event) => {
+    //     console.log("Index BUtton clicked!");
+    //     this.programmesRef.current.scrollIntoView({behavior: "smooth"})
+    //     // smoooth does not work with safari
+    // }
 
     render(){
         const heroProps = {
@@ -42,23 +43,26 @@ class Landing extends Component {
         const section3Data = data.section3;
         return (
             <Fragment>
-                <CustomHero {...heroProps} onClickIndexButton={this.handleIndexButtonClick}/>
-                <SectionTitle text={section1Data.heading} className={styles.landing_section_title_whyUs}/>
+                <CustomHero {...heroProps}/>
+                {/* <SectionTitle text={section1Data.heading} className={styles.landing_section_title_whyUs}/> */}
                 <Content className={styles.landing_section_whyUs}>
                     <AnimateAppear>
-                        <InfoCards data={section1Data.infoCards}/>
+                        <PackageCards data={section1Data.packageCards}/>
                     </AnimateAppear>
                 </Content>
                 <Content className={styles.landing_programmes} ref={this.programmesRef}>
-                    <div className={classnames("backgroundImage")}>
+                    Hello
+                    {/* <div className={classnames("backgroundImage")}>
                         <Image {...section2Data.background }/>
                     </div>
                     <SectionTitle text={section2Data.title} className={styles.landing_section_title_programmes}/>
     
                     <AnimateAppearFromBottom>
                         <PriceCards data={section2Data.programmes}/>
-                    </AnimateAppearFromBottom>
+                    </AnimateAppearFromBottom> */}
                 </Content>
+
+                   {/* 
                 <Content className={styles.landing_contact}>
                     <SectionTitle text={section3Data.title} className={styles.landing_section_title_contact}/>
                     <AnimateAppear>
@@ -69,7 +73,7 @@ class Landing extends Component {
                         external link={ section3Data.buttonLink }
                         />
                     </AnimateAppear>
-                </Content>
+                </Content> */}
             </Fragment>
         )
     }

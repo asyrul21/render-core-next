@@ -11,11 +11,11 @@ const navItems = ({ items }) => {
         return (
           <Link
             key={idx}
-            to={item.link}
-            className={styles.navItem}
-            activeClassName={styles.activeNavItem}
+            href={item.link}
           >
-            {item.text}
+            <a className={styles.navItem}  activeClassName={styles.activeNavItem}>
+              {item.text}
+            </a>
           </Link>
         )
       })}

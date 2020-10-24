@@ -1,0 +1,57 @@
+.doubleArrowContainer {
+  height: 60px;
+  width: 60px;
+  margin: 0 auto;
+  position: relative;
+
+  cursor: pointer;
+
+  // border: blue solid 2px;
+  animation: slowBlinkAndMoveUpAndDown 5s linear infinite;
+}
+
+.heroArrowBox1 {
+  height: 20px;
+  width: 20px;
+
+  margin: 0 auto;
+  transform: rotate(45deg);
+}
+
+.heroArrowBox2 {
+  height: 20px;
+  width: 20px;
+
+  margin: 0 auto;
+  transform: rotate(45deg);
+
+  position: absolute;
+  top: 25%;
+  left: 0;
+  right: 0;
+}
+
+.arrowDown {
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.arrowUp {
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+}
+
+@keyframes slowBlinkAndMoveUpAndDown {
+  0% {
+    opacity: 0.4;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 0.4;
+    transform: translateY(0);
+  }
+}

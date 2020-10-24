@@ -1,0 +1,100 @@
+{
+    "hero": {
+        "backgroundImage": {
+            "path": "images/index/landing-travel.jpg",
+            "path_WEBP": "images/index/landing-travel.webp",
+            "path_JPEG2000": "images/index/landing-travel.jp2"
+        },
+        "heading": "Ebullient<br/>Travel & Tours",
+        "subHeading": "Bringing You Unforgettable Experiences",
+        "footer": "Discover Our Packages"
+    },
+    "section1": {
+        "heading": "Our Packages",
+        "packageCards": [
+            {
+                "icon" : {
+                    "path": "images/index/cards/1.png",
+                    "path_WEBP": "images/index/cards/1.webp",
+                    "path_JPEG2000": "images/index/cards/1.jp2"
+                },
+                "heading": "3D2N Snorkelling",
+                "subHeading": "Langkawi Homestay, Langkawi",
+                "price": "From RM350/pax"
+            },
+            {
+                "icon" : {
+                    "path": "images/index/cards/2.png",
+                    "path_WEBP": "images/index/cards/2.webp",
+                    "path_JPEG2000": "images/index/cards/2.jp2"
+                },
+                "heading": "3D2N Island Hopping",
+                "subHeading": "Mersing, Johor",
+                "price": "From RM300/pax"
+            },
+            {
+                "icon" : {
+                    "path": "images/index/cards/3.png",
+                    "path_WEBP": "images/index/cards/3.webp",
+                    "path_JPEG2000": "images/index/cards/3.jp2"
+                },
+                "heading": "4D3N Diving Package",
+                "subHeading": "Langkawi Homestay, Langkawi",
+                "price": "From RM350/pax"
+            },
+            {
+                "icon" : {
+                    "path": "images/index/cards/4.png",
+                    "path_WEBP": "images/index/cards/4.webp",
+                    "path_JPEG2000": "images/index/cards/4.jp2"
+                },
+                "heading": "2D1N Island Hopping",
+                "subHeading": "Langkawi Homestay, Langkawi",
+                "price": "From RM350/pax"
+            },
+            {
+                "icon" : {
+                    "path": "images/index/cards/5.png",
+                    "path_WEBP": "images/index/cards/5.webp",
+                    "path_JPEG2000": "images/index/cards/5.jp2"
+                },
+                "heading": "2D1N Snorkelling",
+                "subHeading": "Langkawi Homestay, Langkawi",
+                "price": "From RM350/pax"
+            },
+            {
+                "icon" : {
+                    "path": "images/index/cards/6.png",
+                    "path_WEBP": "images/index/cards/6.webp",
+                    "path_JPEG2000": "images/index/cards/6.jp2"
+                },
+                "heading": "Daytrip",
+                "subHeading": "Langkawi Homestay, Langkawi",
+                "price": "From RM350/pax"
+            }
+        ]
+    },
+    "section2" : {
+        "title": "About Us",
+        "background" : {
+            "path": "images/index/programmes-bg.png",
+            "path_WEBP": "images/index/programmes-bg.webp",
+            "path_JPEG2000": "images/index/programmes-bg.jp2"
+        },
+        "textBlock":{
+            "heading": "About Us",
+            "paragraphs": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a volutpat arcu. Vivamus posuere ex in ligula tincidunt, id feugiat nunc porttitor.",
+                "Aenean pretium, magna non porta convallis, lacus lectus dignissim metus, eget luctus augue lectus ut massa. In eget neque sodales, sodales nisl id, gravida metus. Sed vel augue eu sapien ullamcorper mollis interdum a leo. Mauris euismod auctor odio, quis laoreet massa ullamcorper eu.",
+                "Phasellus non sem hendrerit nibh pharetra consectetur ornare ut dolor. Nam a congue justo. "
+            ]
+        }
+    },
+    "section3": {
+        "title": "jumpstart your coding journey with us",
+        "text": "Our November intake is now open for booking. Slots are limited to only 8 students per class per intake. Hurry up and enquire to book your slot!",
+        "buttonText": "enquire now",
+        "buttonLink": "mailto:recode.masterclass@gmail.com"
+    }
+
+}

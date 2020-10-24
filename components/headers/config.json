@@ -1,17 +1,17 @@
 {
-  "logo": "",
+  "logo": "images/index/logo-travel.png",
   "navLinks": [
     {
       "text": "Home",
-      "link": "/"
+      "link": "#"
     },
     {
       "text": "About",
-      "link": "/about"
+      "link": "#"
     },
     {
       "text": "Contact Us",
-      "link": "/contact"
+      "link": "#"
     }
   ]
 }

@@ -6,6 +6,7 @@ import classnames from "classnames"
 // import components
 import Image from "containers/Image/Image"
 import Button from "components/buttons/indexButton/indexButton"
+import DoubleArrow from "components/arrows/doubleArrow/doubleArrow"
 
 // import style
 import styles from "./hero.module.scss"
@@ -17,7 +18,8 @@ export const CustomHero = props => {
       heading, 
       subHeading, 
       buttonText, 
-      link, 
+      link,
+      footer,
       onClickIndexButton, 
       className } = props
 
@@ -37,7 +39,10 @@ export const CustomHero = props => {
             <div className={styles.hero_LogoImage}>
                 <Image {...logoImage}/>
             </div>
-            <h4 className={styles.hero_heading}>{heading}</h4>
+            <h4 
+              className={styles.hero_heading}
+              dangerouslySetInnerHTML={{ __html: heading }}
+            />
             <div className={styles.hero_subHeading}>{subHeading}</div>
             {link && !onClickIndexButton &&
                  <Button text={buttonText} backgroundColor="white" fontColor="dark" className={styles.hero_button} link={link}/>
@@ -45,6 +50,12 @@ export const CustomHero = props => {
             {onClickIndexButton && 
                 <Button text={buttonText} backgroundColor="white" fontColor="dark" className={styles.hero_button} onClick={onClickIndexButton}/>
             }
+        </div>
+        <div className={styles.heroFooter}>
+            <p className={styles.heroFooterText}>
+              {footer}  
+            </p>
+            <DoubleArrow direction="down"/>
         </div>
     </div>
   )
@@ -78,6 +89,10 @@ CustomHero.propTypes = {
    *
    * the link or route which the button leads to */
   link: propTypes.string,
+  /*
+   *
+   * the text as a footer of hero */
+  footer: propTypes.string,
   /*
    *
    * onClick listener callback */

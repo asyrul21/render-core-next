@@ -9,7 +9,7 @@ import Landing from "../views/Landing/multiSection/landing"
 
 const IndexPage = () => {
   return (
-    <ContentLayout nav={false}>
+    <ContentLayout>
       <Landing />
     </ContentLayout>
   )
