@@ -13,7 +13,7 @@ const navItems = ({ items }) => {
             key={idx}
             href={item.link}
           >
-            <a className={styles.navItem}  activeClassName={styles.activeNavItem}>
+            <a className={styles.navItem}>
               {item.text}
             </a>
           </Link>
@@ -24,3 +24,8 @@ const navItems = ({ items }) => {
 }
 
 export default navItems
+
+
+{/* <a className={styles.navItem}  activeClassName={styles.activeNavItem}>
+              {item.text}
+            </a> */}

@@ -5,14 +5,20 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 
 export const AnimateAppear = props => {
-    const duration = 700;
-    const delay = 300;
+    const { duration, delay } = props
 
+    console.log("duration:", duration);
+    console.log("delay:", delay);
     return (
         <Fade duration={duration} delay={delay}>
             { props.children }
         </Fade>
     )
+}
+
+AnimateAppear.defaultProps = {
+    duration: 700,
+    delay: 300
 }
 
 

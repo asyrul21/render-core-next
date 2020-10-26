@@ -10,7 +10,7 @@ import Image from "containers/Image/Image"
 import styles from "./card.module.scss"
 
 export const Card = props => {
-  const { icon, heading, subHeading, price, className } = props
+  const { icon, heading, subHeading, price, onClick, className } = props
 
   // define container classes here
   const styleClasses = classnames({
@@ -18,8 +18,13 @@ export const Card = props => {
     [`${className}`]: className,
   })
 
+  const handleClick = (e, cb) => {
+    e.preventDefault()
+    cb(e)
+  }
+
   return (
-    <div className={styleClasses}>
+    <div className={styleClasses} onClick={(e) => {handleClick(e, onClick)}}>
         <div className={styles.cardBackground}>
             <Image {...icon}/>
         </div>
@@ -54,6 +59,10 @@ Card.propTypes = {
     *
     * the text of the card */
     price: propTypes.string,
+    /*
+    *
+    * the onCLick listener */
+   onClick: propTypes.func,
     /*
     *
     * any applied classnames */

@@ -20,7 +20,22 @@
                 },
                 "heading": "3D2N Snorkelling",
                 "subHeading": "Langkawi Homestay, Langkawi",
-                "price": "From RM350/pax"
+                "price": "From RM350/pax",
+                "popup": {
+                    "image" : {
+                        "path": "images/index/popups/1.png",
+                        "path_WEBP": "images/index/cards/1.webp",
+                        "path_JPEG2000": "images/index/cards/1.jp2"
+                    },
+                    "heading": "Enjoy Clear Waters and Blue Skies",
+                    "subHeading" : "This is the Subtitle if there is any Subtitle here",
+                    "price": "RM 10,000 - RM 12,000",
+                    "paragraphs": [
+                        "This is the content of whatever needs to go in this box to give a description of this package or whatever. This is the content of whatever needs to go in this box to give a description of this package or whatever. ",
+                        "This is the content of whatever needs to go in this box to give a description of this package or whatever. This is the content of whatever needs to go in this box to give a description of this package or whatever. "
+                    ]
+
+                }
             },
             {
                 "icon" : {
@@ -30,7 +45,22 @@
                 },
                 "heading": "3D2N Island Hopping",
                 "subHeading": "Mersing, Johor",
-                "price": "From RM300/pax"
+                "price": "From RM300/pax",
+                "popup": {
+                    "image" : {
+                        "path": "images/index/cards/1.png",
+                        "path_WEBP": "images/index/cards/1.webp",
+                        "path_JPEG2000": "images/index/cards/1.jp2"
+                    },
+                    "heading": "Enjoy Clear Waters and Blue Skies",
+                    "subHeading" : "This is the Subtitle if there is any Subtitle here",
+                    "price": "RM 10,000 - RM 12,000",
+                    "paragraphs": [
+                        "This is the content of whatever needs to go in this box to give a description of this package or whatever. This is the content of whatever needs to go in this box to give a description of this package or whatever. ",
+                        "This is the content of whatever needs to go in this box to give a description of this package or whatever. This is the content of whatever needs to go in this box to give a description of this package or whatever. "
+                    ]
+
+                }
             },
             {
                 "icon" : {
@@ -40,7 +70,22 @@
                 },
                 "heading": "4D3N Diving Package",
                 "subHeading": "Langkawi Homestay, Langkawi",
-                "price": "From RM350/pax"
+                "price": "From RM350/pax",
+                "popup": {
+                    "image" : {
+                        "path": "images/index/cards/1.png",
+                        "path_WEBP": "images/index/cards/1.webp",
+                        "path_JPEG2000": "images/index/cards/1.jp2"
+                    },
+                    "heading": "Enjoy Clear Waters and Blue Skies",
+                    "subHeading" : "This is the Subtitle if there is any Subtitle here",
+                    "price": "RM 10,000 - RM 12,000",
+                    "paragraphs": [
+                        "This is the content of whatever needs to go in this box to give a description of this package or whatever. This is the content of whatever needs to go in this box to give a description of this package or whatever. ",
+                        "This is the content of whatever needs to go in this box to give a description of this package or whatever. This is the content of whatever needs to go in this box to give a description of this package or whatever. "
+                    ]
+
+                }
             },
             {
                 "icon" : {
@@ -50,7 +95,22 @@
                 },
                 "heading": "2D1N Island Hopping",
                 "subHeading": "Langkawi Homestay, Langkawi",
-                "price": "From RM350/pax"
+                "price": "From RM350/pax",
+                "popup": {
+                    "image" : {
+                        "path": "images/index/cards/1.png",
+                        "path_WEBP": "images/index/cards/1.webp",
+                        "path_JPEG2000": "images/index/cards/1.jp2"
+                    },
+                    "heading": "Enjoy Clear Waters and Blue Skies",
+                    "subHeading" : "This is the Subtitle if there is any Subtitle here",
+                    "price": "RM 10,000 - RM 12,000",
+                    "paragraphs": [
+                        "This is the content of whatever needs to go in this box to give a description of this package or whatever. This is the content of whatever needs to go in this box to give a description of this package or whatever. ",
+                        "This is the content of whatever needs to go in this box to give a description of this package or whatever. This is the content of whatever needs to go in this box to give a description of this package or whatever. "
+                    ]
+
+                }
             },
             {
                 "icon" : {
@@ -60,7 +120,22 @@
                 },
                 "heading": "2D1N Snorkelling",
                 "subHeading": "Langkawi Homestay, Langkawi",
-                "price": "From RM350/pax"
+                "price": "From RM350/pax",
+                "popup": {
+                    "image" : {
+                        "path": "images/index/cards/1.png",
+                        "path_WEBP": "images/index/cards/1.webp",
+                        "path_JPEG2000": "images/index/cards/1.jp2"
+                    },
+                    "heading": "Enjoy Clear Waters and Blue Skies",
+                    "subHeading" : "This is the Subtitle if there is any Subtitle here",
+                    "price": "RM 10,000 - RM 12,000",
+                    "paragraphs": [
+                        "This is the content of whatever needs to go in this box to give a description of this package or whatever. This is the content of whatever needs to go in this box to give a description of this package or whatever. ",
+                        "This is the content of whatever needs to go in this box to give a description of this package or whatever. This is the content of whatever needs to go in this box to give a description of this package or whatever. "
+                    ]
+
+                }
             },
             {
                 "icon" : {
@@ -70,7 +145,22 @@
                 },
                 "heading": "Daytrip",
                 "subHeading": "Langkawi Homestay, Langkawi",
-                "price": "From RM350/pax"
+                "price": "From RM350/pax",
+                "popup": {
+                    "image" : {
+                        "path": "images/index/cards/1.png",
+                        "path_WEBP": "images/index/cards/1.webp",
+                        "path_JPEG2000": "images/index/cards/1.jp2"
+                    },
+                    "heading": "Enjoy Clear Waters and Blue Skies",
+                    "subHeading" : "This is the Subtitle if there is any Subtitle here",
+                    "price": "RM 10,000 - RM 12,000",
+                    "paragraphs": [
+                        "This is the content of whatever needs to go in this box to give a description of this package or whatever. This is the content of whatever needs to go in this box to give a description of this package or whatever. ",
+                        "This is the content of whatever needs to go in this box to give a description of this package or whatever. This is the content of whatever needs to go in this box to give a description of this package or whatever. "
+                    ]
+
+                }
             }
         ]
     },
