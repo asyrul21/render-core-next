@@ -24,14 +24,13 @@
                 "popup": {
                     "image" : {
                         "path": "images/index/popups/1.png",
-                        "path_WEBP": "images/index/cards/1.webp",
-                        "path_JPEG2000": "images/index/cards/1.jp2"
+                        "path_WEBP": "images/index/popups/1.webp",
+                        "path_JPEG2000": "images/index/popups/1.jp2"
                     },
                     "heading": "Enjoy Clear Waters and Blue Skies",
-                    "subHeading" : "This is the Subtitle if there is any Subtitle here",
+                    "subHeading" : "Langkawi Homestay, Langkawi",
                     "price": "RM 10,000 - RM 12,000",
                     "paragraphs": [
-                        "This is the content of whatever needs to go in this box to give a description of this package or whatever. This is the content of whatever needs to go in this box to give a description of this package or whatever. ",
                         "This is the content of whatever needs to go in this box to give a description of this package or whatever. This is the content of whatever needs to go in this box to give a description of this package or whatever. "
                     ]
 
@@ -48,12 +47,12 @@
                 "price": "From RM300/pax",
                 "popup": {
                     "image" : {
-                        "path": "images/index/cards/1.png",
-                        "path_WEBP": "images/index/cards/1.webp",
-                        "path_JPEG2000": "images/index/cards/1.jp2"
+                        "path": "images/index/popups/1.png",
+                        "path_WEBP": "images/index/popups/1.webp",
+                        "path_JPEG2000": "images/index/popups/1.jp2"
                     },
                     "heading": "Enjoy Clear Waters and Blue Skies",
-                    "subHeading" : "This is the Subtitle if there is any Subtitle here",
+                    "subHeading" : "Mersing, Johor",
                     "price": "RM 10,000 - RM 12,000",
                     "paragraphs": [
                         "This is the content of whatever needs to go in this box to give a description of this package or whatever. This is the content of whatever needs to go in this box to give a description of this package or whatever. ",
@@ -73,15 +72,14 @@
                 "price": "From RM350/pax",
                 "popup": {
                     "image" : {
-                        "path": "images/index/cards/1.png",
-                        "path_WEBP": "images/index/cards/1.webp",
-                        "path_JPEG2000": "images/index/cards/1.jp2"
+                        "path": "images/index/popups/1.png",
+                        "path_WEBP": "images/index/popups/1.webp",
+                        "path_JPEG2000": "images/index/popups/1.jp2"
                     },
                     "heading": "Enjoy Clear Waters and Blue Skies",
-                    "subHeading" : "This is the Subtitle if there is any Subtitle here",
+                    "subHeading" : "Langkawi Homestay, Langkawi 2",
                     "price": "RM 10,000 - RM 12,000",
                     "paragraphs": [
-                        "This is the content of whatever needs to go in this box to give a description of this package or whatever. This is the content of whatever needs to go in this box to give a description of this package or whatever. ",
                         "This is the content of whatever needs to go in this box to give a description of this package or whatever. This is the content of whatever needs to go in this box to give a description of this package or whatever. "
                     ]
 
@@ -98,12 +96,12 @@
                 "price": "From RM350/pax",
                 "popup": {
                     "image" : {
-                        "path": "images/index/cards/1.png",
-                        "path_WEBP": "images/index/cards/1.webp",
-                        "path_JPEG2000": "images/index/cards/1.jp2"
+                        "path": "images/index/popups/1.png",
+                        "path_WEBP": "images/index/popups/1.webp",
+                        "path_JPEG2000": "images/index/popups/1.jp2"
                     },
                     "heading": "Enjoy Clear Waters and Blue Skies",
-                    "subHeading" : "This is the Subtitle if there is any Subtitle here",
+                    "subHeading" : "Langkawi Homestay, Langkawi 3",
                     "price": "RM 10,000 - RM 12,000",
                     "paragraphs": [
                         "This is the content of whatever needs to go in this box to give a description of this package or whatever. This is the content of whatever needs to go in this box to give a description of this package or whatever. ",
@@ -123,12 +121,12 @@
                 "price": "From RM350/pax",
                 "popup": {
                     "image" : {
-                        "path": "images/index/cards/1.png",
-                        "path_WEBP": "images/index/cards/1.webp",
-                        "path_JPEG2000": "images/index/cards/1.jp2"
+                        "path": "images/index/popups/1.png",
+                        "path_WEBP": "images/index/popups/1.webp",
+                        "path_JPEG2000": "images/index/popups/1.jp2"
                     },
                     "heading": "Enjoy Clear Waters and Blue Skies",
-                    "subHeading" : "This is the Subtitle if there is any Subtitle here",
+                    "subHeading" : "Langkawi Homestay, Langkawi 4",
                     "price": "RM 10,000 - RM 12,000",
                     "paragraphs": [
                         "This is the content of whatever needs to go in this box to give a description of this package or whatever. This is the content of whatever needs to go in this box to give a description of this package or whatever. ",
@@ -148,12 +146,12 @@
                 "price": "From RM350/pax",
                 "popup": {
                     "image" : {
-                        "path": "images/index/cards/1.png",
-                        "path_WEBP": "images/index/cards/1.webp",
-                        "path_JPEG2000": "images/index/cards/1.jp2"
+                        "path": "images/index/popups/1.png",
+                        "path_WEBP": "images/index/popups/1.webp",
+                        "path_JPEG2000": "images/index/popups/1.jp2"
                     },
                     "heading": "Enjoy Clear Waters and Blue Skies",
-                    "subHeading" : "This is the Subtitle if there is any Subtitle here",
+                    "subHeading" : "Langkawi Homestay, Langkawi 5",
                     "price": "RM 10,000 - RM 12,000",
                     "paragraphs": [
                         "This is the content of whatever needs to go in this box to give a description of this package or whatever. This is the content of whatever needs to go in this box to give a description of this package or whatever. ",
@@ -167,9 +165,9 @@
     "section2" : {
         "title": "About Us",
         "background" : {
-            "path": "images/index/programmes-bg.png",
-            "path_WEBP": "images/index/programmes-bg.webp",
-            "path_JPEG2000": "images/index/programmes-bg.jp2"
+            "path": "images/index/aboutus-travel.png",
+            "path_WEBP": "images/index/aboutus-travel.webp",
+            "path_JPEG2000": "images/index/aboutus-travel.jp2"
         },
         "textBlock":{
             "heading": "About Us",
@@ -181,10 +179,13 @@
         }
     },
     "section3": {
-        "title": "jumpstart your coding journey with us",
-        "text": "Our November intake is now open for booking. Slots are limited to only 8 students per class per intake. Hurry up and enquire to book your slot!",
-        "buttonText": "enquire now",
-        "buttonLink": "mailto:recode.masterclass@gmail.com"
+        "title": "About Us",
+        "paragraphs": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a volutpat arcu. Vivamus posuere ex in ligula tincidunt, id feugiat nunc porttitor.",
+            "Aenean pretium, magna non porta convallis, lacus lectus dignissim metus, eget luctus augue lectus ut massa. In eget neque sodales, sodales nisl id, gravida metus. Sed vel augue eu sapien",
+            "ullamcorper mollis interdum a leo. Mauris euismod auctor odio, quis laoreet massa ullamcorper eu.",
+            "Phasellus non sem hendrerit nibh pharetra consectetur ornare ut dolor. Nam a congue justo. "
+        ]
     }
 
 }

@@ -9,10 +9,11 @@ import InfoCards from "components/infoCards/infoCards"
 import PackageCards from "components/packageCards/packageCards"
 import PriceCards from "components/priceCards/priceCards"
 import Button from "components/buttons/indexButton/indexButton"
+import TextBlock from "components/textBlock/textBlock"
 
 // animators
 import AnimateAppear from "components/animators/reveal-fade-appear"
-import AnimateAppearFromBottom from "components/animators/reveal-fade-appear-from-bottom"
+import AnimateAppearFrom from "components/animators/reveal-fade-appear-from"
 
 // data
 import data from "public/data/index/data3.json"
@@ -45,21 +46,37 @@ class Landing extends Component {
             <Fragment>
                 <CustomHero {...heroProps}/>
                 {/* <SectionTitle text={section1Data.heading} className={styles.landing_section_title_whyUs}/> */}
-                <Content className={styles.landing_section_whyUs}>
+                <Content className={styles.landing_section_1}>
                     <AnimateAppear>
                         <PackageCards data={section1Data.packageCards}/>
                     </AnimateAppear>
                 </Content>
-                <Content className={styles.landing_programmes} ref={this.programmesRef}>
-                    Hello
+                <Content className={styles.landing_section_2} ref={this.programmesRef}>
                     {/* <div className={classnames("backgroundImage")}>
                         <Image {...section2Data.background }/>
-                    </div>
-                    <SectionTitle text={section2Data.title} className={styles.landing_section_title_programmes}/>
-    
-                    <AnimateAppearFromBottom>
-                        <PriceCards data={section2Data.programmes}/>
-                    </AnimateAppearFromBottom> */}
+                        </div>
+                        <SectionTitle text={section2Data.title} className={styles.landing_section_title_programmes}/>
+        
+                        <AnimateAppearFrom>
+                            <PriceCards data={section2Data.programmes}/>
+                        </AnimateAppearFrom> */}
+
+                    {/* double column content */}
+                    <AnimateAppearFrom direction="left">
+                        <div className={styles.landing_section_2_left}>
+                            <TextBlock 
+                                heading={section2Data.textBlock.heading}
+                                paragraphs={section2Data.textBlock.paragraphs}
+                                headingClassname={styles.textBlockHeading}
+                                paragraphClassname={styles.textBlockParagraphs}
+                            />
+                        </div>
+                    </AnimateAppearFrom>
+                    <AnimateAppearFrom direction="right">
+                        <div className={styles.landing_section_2_right}>
+                            <Image {...section2Data.background}/>
+                        </div>
+                    </AnimateAppearFrom>
                 </Content>
 
                    {/* 

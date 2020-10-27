@@ -1,19 +1,41 @@
 import React from "react"
+import propTypes from "prop-types"
+import classnames from "classnames"
 
-import "./textBlock.module.scss"
+import styles from "./textBlock.module.scss"
 
 // this component must be wrapped with a container to determine its size
+const TextBlock = props => {
+  const { 
+    heading, 
+    paragraphs, 
+    headingClassname, 
+    paragraphClassname,
+    className } = props
 
-const textBlock = props => {
-  const { heading, paragraphs } = props
+    // define container classes here
+    const containerStyleClasses = classnames({
+      [styles.textBlockContainer]: true,
+      [`${className}`]: className,
+    })
+
+    const headingClassnames = classnames({
+      [styles.textBlockHeading]: true,
+      [`${headingClassname}`]: headingClassname,
+    })
+
+    const paragraphClassnames = classnames({
+      [styles.textBlockParagraph]: true,
+      [`${paragraphClassname}`]: paragraphClassname,
+    })
 
   return (
-    <div className="textBlock_container">
-      <h4 className="textBlock_heading">{heading}</h4>
+    <div className={containerStyleClasses}>
+      <h4 className={headingClassnames}>{heading}</h4>
       {paragraphs &&
         paragraphs.map((paragraph, idx) => {
           return (
-            <p key={idx} className="textBlock_paragraph">
+            <p key={idx} className={paragraphClassnames}>
               {paragraph}
             </p>
           )
@@ -22,4 +44,28 @@ const textBlock = props => {
   )
 }
 
-export default textBlock
+/* Prop Definition */
+TextBlock.propTypes = {
+  /*
+   *
+   * the text as the heading */
+  heading: propTypes.string,
+  /*
+   *
+   * the paragraphs */
+  paragraphs: propTypes.arrayOf(propTypes.string),
+  /*
+   *
+   * classname to be applied to the header */
+  headingClassname: propTypes.string,
+  /*
+   *
+   * classname to be applied to the paragraphs */
+  paragraphClassname: propTypes.string,
+  /*
+   *
+   * classname to be applied to the container */
+  className: propTypes.string,
+}
+
+export default TextBlock

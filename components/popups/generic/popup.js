@@ -25,17 +25,15 @@ const Popup = props => {
       })
 
   return (
-      <Fragment>
-          <div className="popupBackdrop" onClick={(e) => handleClose(e, onClose)}/>
-          <AnimateAppear duration={300} delay={0}>
-            <div className={styleClasses}>
-                <div className={styles.closeButton} onClick={(e) => handleClose(e, onClose)}>
-                  <Image path="icons/closeButton.png"/>
-                </div>
-                { children }
-            </div>
-          </AnimateAppear>
-      </Fragment>
+    <AnimateAppear duration={200} delay={0}>
+      <div className="popupBackdrop" onClick={(e) => handleClose(e, onClose)}/>
+      <div className={styleClasses}>
+          <div className={styles.closeButton} onClick={(e) => handleClose(e, onClose)}>
+            <Image path="icons/closeButton.png"/>
+          </div>
+          { children }
+      </div>      
+    </AnimateAppear>
   )
 }
 

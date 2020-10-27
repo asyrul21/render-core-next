@@ -6,9 +6,7 @@ import Fade from "react-reveal/Fade"
 
 export const AnimateAppear = props => {
     const { duration, delay } = props
-
-    console.log("duration:", duration);
-    console.log("delay:", delay);
+    
     return (
         <Fade duration={duration} delay={delay}>
             { props.children }

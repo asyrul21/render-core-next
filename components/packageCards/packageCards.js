@@ -58,7 +58,9 @@ class PackageCards extends Component {
           })}
         </div>
         {this.state.clickedItem !== null && (
-          <PackagePopup onClose={this.handleClosePopup}/>
+          <PackagePopup 
+            onClose={this.handleClosePopup}
+            {...data[this.state.clickedItem].popup}/>
         )}
       </>
     )

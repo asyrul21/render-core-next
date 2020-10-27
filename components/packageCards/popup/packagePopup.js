@@ -19,7 +19,12 @@ export const PackagePopup = props => {
             <Image {...image}/>
         </div>
         <div className={styles.popupTextContainer}>
-            Some text here
+            <p className={styles.packagePopupHeading}>{heading}</p>
+            <p className={styles.packagePopupSubHeading}>{subHeading}</p>
+            <p className={styles.packagePopupPrice}>{price}</p>
+            {paragraphs.map((text, idx) => (
+                <p className={styles.packagePopupParagraphs}>{text}</p>
+            ))}
         </div>
     </Poppup>
   )

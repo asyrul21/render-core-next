@@ -8,7 +8,7 @@ $darkFont: #223c66;
 
 // ************************************
 // Why us
-.landing_section_whyUs {
+.landing_section_1 {
   background-color: #f3f2f2;
   width: 100%;
   border: red 2px solid;
@@ -18,13 +18,17 @@ $darkFont: #223c66;
 
 // ************************************
 // Programmes
-.landing_programmes {
-  //   border: blue 2px solid;
+.landing_section_2 {
+  border: blue 2px solid;
   width: 100%;
   position: relative;
   // overwrite min height
-  min-height: 820px;
-  //   height: 820px;
+  // min-height: 820px;
+  height: 900px;
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .landing_section_title_programmes {
@@ -34,6 +38,37 @@ $darkFont: #223c66;
 
 .landing_priceCard_container {
   border: 2px solid red;
+}
+
+// left side **************************
+.landing_section_2_left {
+  width: 50%;
+  height: 100%;
+
+  // border: 2px solid red;
+  padding: 100px;
+}
+
+.textBlockHeading {
+  font-weight: 600;
+  font-size: 62px;
+  margin-bottom: 35px;
+}
+
+.textBlockParagraphs {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+
+// left side **************************
+.landing_section_2_right {
+  width: 50%;
+  height: 100%;
+
+  // border: 2px solid red;
 }
 
 // ************************************

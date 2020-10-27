@@ -1,12 +1,42 @@
 .popupImage {
   height: 100%;
   width: 45%;
-
-  border: blue 2px solid;
 }
 
 .popupTextContainer {
-  border: black 2px solid;
+  // border: black 2px solid;
   flex: 1;
   height: 100%;
+  padding: 60px 60px;
+
+  overflow-y: auto;
+}
+
+.packagePopupHeading {
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 30px;
+
+  line-height: 50px;
+}
+
+.packagePopupSubHeading {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 38px;
+  margin-bottom: 15px;
+}
+
+.packagePopupPrice {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  margin-bottom: 30px;
+}
+
+.packagePopupParagraphs {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 30px;
 }
