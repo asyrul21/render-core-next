@@ -28,11 +28,13 @@ const Popup = props => {
     <AnimateAppear duration={200} delay={0}>
       <div className="popupBackdrop" onClick={(e) => handleClose(e, onClose)}/>
       <div className={styleClasses}>
-          <div className={styles.closeButton} onClick={(e) => handleClose(e, onClose)}>
-            <Image path="icons/closeButton.png"/>
+          <div 
+            className={styles.closeButton} 
+            onClick={(e) => handleClose(e, onClose)}>
+              <Image path="icons/closeButton.png"/>
           </div>
           { children }
-      </div>      
+      </div>
     </AnimateAppear>
   )
 }

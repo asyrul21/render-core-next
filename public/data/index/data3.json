@@ -179,13 +179,60 @@
         }
     },
     "section3": {
-        "title": "About Us",
-        "paragraphs": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a volutpat arcu. Vivamus posuere ex in ligula tincidunt, id feugiat nunc porttitor.",
-            "Aenean pretium, magna non porta convallis, lacus lectus dignissim metus, eget luctus augue lectus ut massa. In eget neque sodales, sodales nisl id, gravida metus. Sed vel augue eu sapien",
-            "ullamcorper mollis interdum a leo. Mauris euismod auctor odio, quis laoreet massa ullamcorper eu.",
-            "Phasellus non sem hendrerit nibh pharetra consectetur ornare ut dolor. Nam a congue justo. "
-        ]
+        "title": "Contact",
+        "text": {
+            "paragraphs": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a volutpat arcu. Vivamus posuere ex in ligula tincidunt, id feugiat nunc porttitor."
+            ]
+        },
+        "formPlaceholders": {
+            "field1": "name",
+            "field2": "email",
+            "field3": "type your message here..."
+        },
+        "contactInformation": [
+            {
+                "title": "phone",
+                "iconPath" : {
+                    "path": "images/contact/icons/phone.png",
+                    "path_WEBP": "",
+                    "path_JPEG2000": ""
+                },
+                "lines": [
+                    "013 3045671 (Teacher Mazny)",
+                    "012 2055337 (Teacher Alma)"
+                ]
+            },
+           {
+                "title": "email",
+                "iconPath": {
+                    "path": "images/contact/icons/email.png",
+                    "path_WEBP": "",
+                    "path_JPEG2000": ""
+                },
+                "lines": [
+                    "thefunfactory@gmail.com"
+                ]
+            },
+            {
+                "title": "address",
+                "iconPath": {
+                    "path": "images/contact/icons/location.png",
+                    "path_WEBP": "",
+                    "path_JPEG2000": ""
+                },
+                "lines": [
+                    "24, Jalan SS 1/41, Kampung Tunku,",
+                    "47300 Petaling Jaya, Selangor, Malaysia"
+                ]
+            }
+        ],
+        "googleAPI" : {
+            "coordinates": {
+                "x": "0.12345",
+                "y": "0.45678"
+            }
+        }
     }
 
 }

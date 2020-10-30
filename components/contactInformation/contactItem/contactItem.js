@@ -7,14 +7,14 @@ import classnames from "classnames"
 import Image from "containers/Image/Image"
 
 // import style
-import "./contactItem.module.scss"
+import styles from "./contactItem.module.scss"
 
 export const ContactItem = props => {
   const { item, className } = props
 
   // define container classes here
   const styleClasses = classnames({
-    contactItemContainer: true,
+    [styles.contactItemContainer]: true,
     [`${className}`]: className,
   })
 
@@ -22,13 +22,13 @@ export const ContactItem = props => {
     <div className={styleClasses}>
       {/* whatever you need to do here */}
       {/* avoid using style tags */}
-      <div className="contactItem_IconContainer">
+      <div className={styles.contactItem_IconContainer}>
         <Image {...item.iconPath} />
       </div>
-      <div className="contactItem_linesContainer">
+      <div className={styles.contactItem_linesContainer}>
         {item.lines.map((text, idx) => {
           return (
-            <p key={idx} className="contactItem_text">
+            <p key={idx} className={styles.contactItem_text}>
               {text}
             </p>
           )
@@ -43,16 +43,14 @@ ContactItem.propTypes = {
   /*
    *
    * the contact information item */
-  item: propTypes.arrayOf(
-    propTypes.shape({
+  item: propTypes.shape({
       title: propTypes.string,
       iconPath: propTypes.shape({
         path: propTypes.string,
         path_WEBP: propTypes.string,
         path_JPEG2000: propTypes.string,
       }),
-      lines: propTypes.arrayOf(propTypes.string),
-    })
+      lines: propTypes.arrayOf(propTypes.string)}
   ),
   /*
    *

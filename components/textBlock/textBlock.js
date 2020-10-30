@@ -31,7 +31,9 @@ const TextBlock = props => {
 
   return (
     <div className={containerStyleClasses}>
-      <h4 className={headingClassnames}>{heading}</h4>
+      {heading &&
+        <h4 className={headingClassnames}>{heading}</h4>
+      }
       {paragraphs &&
         paragraphs.map((paragraph, idx) => {
           return (

@@ -15,31 +15,30 @@ import styles from "./packageCards.module.scss"
 class PackageCards extends Component {
   constructor(props){
     super(props)
-    this.state = {
-      clickedItem: null
-    }
+    // this.state = {
+    //   clickedItem: null
+    // }
   }
 
-  handleClick = (event, itemId) => {
-    console.log("Clicked on item #:", itemId);
-    if(event){
-      this.setState({
-        clickedItem: itemId
-      })
-    }
-  }
+  // handleClick = (event, itemId) => {
+  //   if(event){
+  //     this.setState({
+  //       clickedItem: itemId
+  //     })
+  //   }
+  // }
 
-  handleClosePopup = (event) => {
-    if(event){
-      this.setState({
-        clickedItem: null
-      })
-    }
-  }
+  // handleClosePopup = (event) => {
+  //   if(event){
+  //     this.setState({
+  //       clickedItem: null
+  //     })
+  //   }
+  // }
 
 
   render(){
-    const { data, className } = this.props
+    const { data, onClick, className } = this.props
 
     // define container classes here
     const styleClasses = classnames({
@@ -53,15 +52,10 @@ class PackageCards extends Component {
           { data.map((item, idx) => {
               return (
                 <Card key={idx} {...item} onClick={
-                  (event) => {this.handleClick(event, idx)}}/>
+                  (event) => {onClick(event, idx)}}/>
               )
           })}
         </div>
-        {this.state.clickedItem !== null && (
-          <PackagePopup 
-            onClose={this.handleClosePopup}
-            {...data[this.state.clickedItem].popup}/>
-        )}
       </>
     )
   }
@@ -82,6 +76,10 @@ PackageCards.propTypes = {
       subHeading: propTypes.string,
       price: propTypes.string
   })),
+  /*
+   *
+   * the method to execute if one of the packages are clicked */
+  onClick: propTypes.func,
   /*
    *
    * any applied classnames */

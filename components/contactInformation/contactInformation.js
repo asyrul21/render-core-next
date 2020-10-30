@@ -7,14 +7,14 @@ import classnames from "classnames"
 import ContactItem from "./contactItem/contactItem"
 
 // import style
-import "./contactInformation.module.scss"
+import styles from "./contactInformation.module.scss"
 
 export const ContactInformation = props => {
   const { data, className } = props
 
   // define container classes here
   const styleClasses = classnames({
-    contactInformationContainer: true,
+    [styles.contactInformationContainer]: true,
     [`${className}`]: className,
   })
 
@@ -23,7 +23,7 @@ export const ContactInformation = props => {
       {/* whatever you need to do here */}
       {/* avoid using style tags */}
       {data.map((item, idx) => {
-        return <ContactItem item={item} />
+        return <ContactItem key={idx} item={item} />
       })}
     </div>
   )

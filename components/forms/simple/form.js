@@ -7,7 +7,7 @@ import classnames from "classnames"
 import FormButton from "components/buttons/formButton/formButton"
 
 // import style
-import "./form.module.scss"
+import styles from "./form.module.scss"
 
 export class Form extends Component {
   constructor() {
@@ -40,7 +40,7 @@ export class Form extends Component {
     const { field1, field2, field3, handleSubmit, className } = this.props
     // define container classes here
     const styleClasses = classnames({
-      formContainer: true,
+      [styles.formContainer]: true,
       [`${className}`]: className,
     })
 
@@ -51,7 +51,8 @@ export class Form extends Component {
             name="name"
             type="text"
             placeholder={field1}
-            className={classnames("form_input", "simpleForm_inputText")}
+            className={
+              classnames(styles.form_input, styles.simpleForm_inputText)}
             value={this.state.fields.name || ""}
             onChange={this.handleChange}
           />
@@ -59,14 +60,16 @@ export class Form extends Component {
             name="email"
             type="email"
             placeholder={field2}
-            className={classnames("form_input", "simpleForm_inputText")}
+            className={
+              classnames(styles.form_input, styles.simpleForm_inputText)}
             value={this.state.fields.email || ""}
             onChange={this.handleChange}
           />
           <textarea
             name="message"
             placeholder={field3}
-            className={classnames("form_input", "simpleForm_textArea")}
+            className={
+              classnames(styles.form_input, styles.simpleForm_textArea)}
             value={this.state.fields.message || ""}
             onChange={this.handleChange}
           />
