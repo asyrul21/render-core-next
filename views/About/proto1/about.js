@@ -6,7 +6,7 @@ import cx from "classnames"
 
 // components
 import Content from "containers/Content/Content"
-import TextPhotoRow from "./components/TextPhotoRow/TextPhotoRow"
+import TextPhotoRow from "components/TextPhotoRow/TextPhotoRow"
 import SectionTitle from "components/sectionTitles/sectionTitle1/sectionTitle"
 import OrgChartRow from "components/orgCharts/OrgChartRow"
 import ImageSlider from "components/imageSlider/container/imageSlider"

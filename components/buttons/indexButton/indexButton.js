@@ -44,8 +44,10 @@ export class indexButton extends Component {
     else {
       return (
         <div className={styleClasses}>
-          <Link to={link} className={styles.buttonText}>
-            {text}
+          <Link href={link}>
+            <a className={styles.buttonText}>
+              { text }
+            </a>
           </Link>
         </div>
       )

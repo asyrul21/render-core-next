@@ -9,9 +9,9 @@ import Button from "components/buttons/indexButton/indexButton"
 import DoubleArrow from "components/arrows/doubleArrow/doubleArrow"
 
 // import style
-import styles from "./hero.module.scss"
+import styles from "./landing.module.scss"
 
-export const CustomHero = props => {
+export const Landing = props => {
   const { 
       backgroundImage, 
       logoImage, 
@@ -62,45 +62,45 @@ export const CustomHero = props => {
 }
 
 /* Prop Definition */
-CustomHero.propTypes = {
-  /*
-   *
-   * the background image paths */
-  backgroundImage: propTypes.shape({
-    path: propTypes.string,
-    path_WEBP: propTypes.string,
-    path_JPEG2000: propTypes.string,
-  }),
-  /*
-   *
-   * the logo image paths */
-  logoImage: propTypes.shape({
-    path: propTypes.string,
-    path_WEBP: propTypes.string,
-    path_JPEG2000: propTypes.string,
-  }),
-  heading: propTypes.string,
-  subHeading: propTypes.string,
-  /*
-   *
-   * the text on the button */
-  buttonText: propTypes.string,
-  /*
-   *
-   * the link or route which the button leads to */
-  link: propTypes.string,
-  /*
-   *
-   * the text as a footer of hero */
-  footer: propTypes.string,
-  /*
-   *
-   * onClick listener callback */
-  onClickIndexButton: propTypes.func,
-  /*
-   *
-   * any applied classnames */
-  className: propTypes.string,
+Landing.propTypes = {
+    /*
+    *
+    * the background image paths */
+    backgroundImage: propTypes.shape({
+        path: propTypes.string,
+        path_WEBP: propTypes.string,
+        path_JPEG2000: propTypes.string,
+    }),
+    /*
+    *
+    * the logo image paths */
+    logoImage: propTypes.shape({
+        path: propTypes.string,
+        path_WEBP: propTypes.string,
+        path_JPEG2000: propTypes.string,
+    }),
+    heading: propTypes.string,
+    subHeading: propTypes.string,
+    /*
+    *
+    * the text on the button */
+    buttonText: propTypes.string,
+    /*
+    *
+    * the link or route which the button leads to */
+    link: propTypes.string,
+    /*
+    *
+    * the text as a footer of hero */
+    footer: propTypes.string,
+    /*
+    *
+    * onClick listener callback */
+    onClickIndexButton: propTypes.func,
+    /*
+    *
+    * any applied classnames */
+    className: propTypes.string,
 }
 
-export default CustomHero
+export default Landing

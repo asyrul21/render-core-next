@@ -9,7 +9,6 @@ import SectionTitle from "components/sectionTitles/sectionTitle1/sectionTitle"
 import Content from "containers/Content/Content"
 import ContentDoubleColumn from "containers/Content-Double-Column/ContentDoubleColumn"
 import Image from "containers/Image/Image"
-import Button from "components/buttons/indexButton/indexButton"
 
 // view specific component
 import PackageCards from "components/packageCards/packageCards"
@@ -19,33 +18,32 @@ import AnimateAppear from "components/animators/reveal-fade-appear"
 import AnimateAppearFrom from "components/animators/reveal-fade-appear-from"
 
 // import style
-import styles from "./contact.module.scss"
+import styles from "./yourComponentName.module.scss"
 
-export const Contact = (props) => {
+export const yourComponentName = (props) => {
     const { data } = props
     return (
         <>
-            <Content className={styles.contentContainer}>
-                <SectionTitle text={data.title} className={styles.sectionTitle}/>
-                <AnimateAppear>
-                    <p className={styles.text}>
-                        { data.text }
-                    </p>
-                    <Button text={ data.buttonText } className={styles.button} fontColor="white"
-                    external link={ data.buttonLink }
-                    />
-                </AnimateAppear>
-            </Content>   
+             <Content className={styles.contentContainer} ref={this.programmesRef}>
+                    <div className={classnames("backgroundImage")}>
+                        <Image {...data.background }/>
+                    </div>
+                    <SectionTitle text={data.title} className={styles.sectionTitle}/>
+    
+                    <AnimateAppearFromBottom>
+                        <PriceCards data={data.programmes}/>
+                    </AnimateAppearFromBottom>
+            </Content>            
         </>
     )
 }
 
 /* Prop Definition */
-Contact.propTypes = {
+yourComponentName.propTypes = {
   /*
    *
    * the data for the view to consume */
   data: propTypes.object,
 }
 
-export default Contact
+export default yourComponentName

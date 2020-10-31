@@ -1,9 +1,14 @@
-.contact_Content_layout {
+.contentLayout {
   //   border: green 2px solid;
+  width: 100%;
+  justify-content: space-between;
+  padding: 120px 100px;
 
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+
+  margin-bottom: 200px;
 }
 
 .contact_column {

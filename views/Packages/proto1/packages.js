@@ -9,43 +9,44 @@ import SectionTitle from "components/sectionTitles/sectionTitle1/sectionTitle"
 import Content from "containers/Content/Content"
 import ContentDoubleColumn from "containers/Content-Double-Column/ContentDoubleColumn"
 import Image from "containers/Image/Image"
-import Button from "components/buttons/indexButton/indexButton"
 
 // view specific component
-import PackageCards from "components/packageCards/packageCards"
+import PriceCards from "components/priceCards/priceCards"
 
 // animators
 import AnimateAppear from "components/animators/reveal-fade-appear"
 import AnimateAppearFrom from "components/animators/reveal-fade-appear-from"
 
 // import style
-import styles from "./contact.module.scss"
+import styles from "./packages.module.scss"
 
-export const Contact = (props) => {
+export const Packages = (props) => {
     const { data } = props
     return (
         <>
-            <Content className={styles.contentContainer}>
-                <SectionTitle text={data.title} className={styles.sectionTitle}/>
-                <AnimateAppear>
-                    <p className={styles.text}>
-                        { data.text }
-                    </p>
-                    <Button text={ data.buttonText } className={styles.button} fontColor="white"
-                    external link={ data.buttonLink }
-                    />
-                </AnimateAppear>
-            </Content>   
+             <Content className={styles.packagesContainer}>
+                    <div className={classnames("backgroundImage")}>
+                        <Image {...data.background }/>
+                    </div>
+                    <SectionTitle text={data.title} className={styles.sectionTitle}/>
+    
+                    <AnimateAppearFrom>
+                        <PriceCards data={data.programmes}/>
+                    </AnimateAppearFrom>
+            </Content>            
         </>
     )
 }
 
 /* Prop Definition */
-Contact.propTypes = {
+Packages.propTypes = {
   /*
    *
    * the data for the view to consume */
   data: propTypes.object,
 }
 
-export default Contact
+export default Packages
+
+
+// ref={this.programmesRef}

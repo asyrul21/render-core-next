@@ -9,43 +9,37 @@ import SectionTitle from "components/sectionTitles/sectionTitle1/sectionTitle"
 import Content from "containers/Content/Content"
 import ContentDoubleColumn from "containers/Content-Double-Column/ContentDoubleColumn"
 import Image from "containers/Image/Image"
-import Button from "components/buttons/indexButton/indexButton"
 
 // view specific component
-import PackageCards from "components/packageCards/packageCards"
+import InfoCards from "components/infoCards/infoCards"
 
 // animators
 import AnimateAppear from "components/animators/reveal-fade-appear"
 import AnimateAppearFrom from "components/animators/reveal-fade-appear-from"
 
 // import style
-import styles from "./contact.module.scss"
+import styles from "./info.module.scss"
 
-export const Contact = (props) => {
+export const InfoSection = (props) => {
     const { data } = props
     return (
         <>
-            <Content className={styles.contentContainer}>
-                <SectionTitle text={data.title} className={styles.sectionTitle}/>
+            <SectionTitle text={data.heading} className={styles.landing_section_title_whyUs}/>
+            <Content className={styles.landing_section_whyUs}>
                 <AnimateAppear>
-                    <p className={styles.text}>
-                        { data.text }
-                    </p>
-                    <Button text={ data.buttonText } className={styles.button} fontColor="white"
-                    external link={ data.buttonLink }
-                    />
+                    <InfoCards data={data.infoCards}/>
                 </AnimateAppear>
-            </Content>   
+            </Content> 
         </>
     )
 }
 
 /* Prop Definition */
-Contact.propTypes = {
+InfoCards.propTypes = {
   /*
    *
    * the data for the view to consume */
   data: propTypes.object,
 }
 
-export default Contact
+export default InfoSection

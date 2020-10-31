@@ -1,0 +1,116 @@
+{
+    "images": {
+        "path": "images/index/landing-travel.jpg",
+        "path_WEBP": "images/index/landing-travel.webp",
+        "path_JPEG2000": "images/index/landing-travel.jp2"
+    },
+    "textBlocks":{
+        "heading": "About Us",
+        "paragraphs": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a volutpat arcu. Vivamus posuere ex in ligula tincidunt, id feugiat nunc porttitor.",
+            "Aenean pretium, magna non porta convallis, lacus lectus dignissim metus, eget luctus augue lectus ut massa. In eget neque sodales, sodales nisl id, gravida metus. Sed vel augue eu sapien ullamcorper mollis interdum a leo. Mauris euismod auctor odio, quis laoreet massa ullamcorper eu.",
+            "Phasellus non sem hendrerit nibh pharetra consectetur ornare ut dolor. Nam a congue justo. "
+        ]
+    },
+    "formPlaceholders": {
+        "field1": "name",
+        "field2": "email",
+        "field3": "type your message here..."
+    },
+    "infoCards": [
+        {
+            "icon" : {
+                "path": "images/index/icons/lightning.png",
+                "path_WEBP": "",
+                "path_JPEG2000": ""
+            },
+            "heading": "10-Week Masterclass",
+            "text": "Transform from a normal human being to a Ninja Programmer and unlock your hidden talent within just 10 weeks."
+        },
+        {}
+    ],
+    "priceCards": [
+        {
+            "heading": "beginner",
+            "subHeading": "10 WEEKS",
+            "text" : "Build simple and fun applications in Python, the most powerful programming language today.",
+            "price": "RM 2,000",
+            "buttonText": "download syllabus",
+            "buttonLink": "https://drive.google.com/uc?export=download&id=1HoKGB7SdCB8tYd28jF4sfTHDQUtjxs2D"
+        },
+        {}
+    ],
+    "packageCards": [
+        {
+            "icon" : {
+                "path": "images/index/cards/1.png",
+                "path_WEBP": "images/index/cards/1.webp",
+                "path_JPEG2000": "images/index/cards/1.jp2"
+            },
+            "heading": "3D2N Snorkelling",
+            "subHeading": "Langkawi Homestay, Langkawi",
+            "price": "From RM350/pax",
+            "popup": {
+                "image" : {
+                    "path": "images/index/popups/1.png",
+                    "path_WEBP": "images/index/popups/1.webp",
+                    "path_JPEG2000": "images/index/popups/1.jp2"
+                },
+                "heading": "Enjoy Clear Waters and Blue Skies",
+                "subHeading" : "Langkawi Homestay, Langkawi",
+                "price": "RM 10,000 - RM 12,000",
+                "paragraphs": [
+                    "This is the content of whatever needs to go in this box to give a description of this package or whatever. This is the content of whatever needs to go in this box to give a description of this package or whatever. "
+                ]
+
+            }
+        }, 
+        {}
+    ],
+    "contactInformation": [
+        {
+            "title": "phone",
+            "iconPath" : {
+                "path": "images/contact/icons/phone.png",
+                "path_WEBP": "",
+                "path_JPEG2000": ""
+            },
+            "lines": [
+                "013 3045671 (Teacher Mazny)",
+                "012 2055337 (Teacher Alma)"
+            ]
+        },
+       {}
+    ],
+    "googleAPI" : {
+        "coordinates": {
+            "x": "0.12345",
+            "y": "0.45678"
+        }
+    },
+    "genericHero": {
+        "backgroundImage": {
+            "path": "images/index/landing-travel.jpg",
+            "path_WEBP": "images/index/landing-travel.webp",
+            "path_JPEG2000": "images/index/landing-travel.jp2"
+        },
+        "heading": "Ebullient<br/>Travel & Tours",
+        "subHeading": "Bringing You Unforgettable Experiences",
+        "footer": "Discover Our Packages"
+    },
+    "doubleColumnHero": {
+        "backgroundImage": {
+            "path": "images/index/landing-kindergarten.jpg",
+            "path_WEBP": "images/index/landing-kindergarten.webp",
+            "path_JPEG2000": "images/index/landing-kindergarten.jp2"
+        },
+        "sideImage": {
+            "path": "images/index/kindergarten-side.jpg",
+            "path_WEBP": "images/index/kindergarten-side.webp",
+            "path_JPEG2000": "images/index/kindergarten-side.jp2"
+        },
+        "heading": "We Are<br/>The Fun Factory",
+        "subHeading": "We’re not just any kindergarten, we’re a place with fun teachers and an exciting environment for your child. Here at the Fun Factory, we focus on developing important skills with activities both inside and outside of the classroom, giving your child the best time of their life!",
+        "buttonText": "Browse Programmes"
+    }
+}

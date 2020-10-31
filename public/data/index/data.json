@@ -1,5 +1,17 @@
 {
-    "heading": "We Are<br/>The Fun Factory",
-    "subHeading": "We’re not just any kindergarten, we’re a place with fun teachers and an exciting environment for your child. Here at the Fun Factory, we focus on developing important skills with activities both inside and outside of the classroom, giving your child the best time of their life!",
-    "button": "Browse Programmes"
+    "hero": {
+        "backgroundImage": {
+            "path": "images/index/landing-kindergarten.jpg",
+            "path_WEBP": "images/index/landing-kindergarten.webp",
+            "path_JPEG2000": "images/index/landing-kindergarten.jp2"
+        },
+        "sideImage": {
+            "path": "images/index/kindergarten-side.jpg",
+            "path_WEBP": "images/index/kindergarten-side.webp",
+            "path_JPEG2000": "images/index/kindergarten-side.jp2"
+        },
+        "heading": "We Are<br/>The Fun Factory",
+        "subHeading": "We’re not just any kindergarten, we’re a place with fun teachers and an exciting environment for your child. Here at the Fun Factory, we focus on developing important skills with activities both inside and outside of the classroom, giving your child the best time of their life!",
+        "buttonText": "Browse Programmes"
+    }
 }
